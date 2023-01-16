@@ -11,7 +11,7 @@ Once the changes were made, I opened up a new window and terminal in Visual Stud
 
 <img width="1018" alt="Pasted Graphic 3" src="https://user-images.githubusercontent.com/114371214/212163968-898a37b8-bd34-47c8-abc2-76291928e1da.png">
 
-## Step 3: Connecting to Terminal using SSH 
+## Step 3: Remotely Connecting using SSH 
 The account lookup allowed me to find out my username so I then wrote this line of code into the terminal: **$ ssh cs15lwi23aqo@ieng6.ucsd.edu** and put in my password. You would simply need to change the username to your own account name and then keep the address as **@ieng6.ucsd.edu**. For reference: *ACCOUNTNAME*@ieng6.ucsd.edu.
 
 <img width="694" alt="TERMINAL" src="https://user-images.githubusercontent.com/114371214/212164484-25f38ac6-dcb8-4fb4-bed3-09b05fbf56c8.png">
