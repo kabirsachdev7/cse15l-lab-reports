@@ -25,7 +25,6 @@ I proceeded to list out some commands into the terminal to examine different err
 
 <img width="648" alt="group members' username" src="https://user-images.githubusercontent.com/114371214/212164654-2480596b-6178-48c8-8257-2553feeea71d.png">
 
-Lastly, I proceeded to [Github](github.com), and since I had an account already registered I did not need to make another one. However, if you do not have an account, simply register on their website. 
 
 <img width="1356" alt="Pasted Graphic 7" src="https://user-images.githubusercontent.com/114371214/212164705-ce611bee-f8fb-4d24-aedc-6dcbb604b93e.png">
 
