@@ -1,24 +1,27 @@
-# Lab Report 1 
-## An Introduction to GitHub Pages
+# Lab Report 1:An Introduction to GitHub Pages
+## Step 1: Setting up CSE 15L Account
 To setup my account, I began by first using the account lookup using the [Account Look Up Tool](https://sdacs.ucsd.edu/~icc/index.php), to decipher the username of my CSE 15L account. 
 
 <img width="643" alt="Account Lookup Results" src="https://user-images.githubusercontent.com/114371214/212163750-5cc123d1-6286-4a84-910d-1fbd6310bd09.png">
 
 Subsequently, I clicked on the global password account reset button and changed my password for only this course-specific account. Once successfully changing the password for my account, I had to wait approximately 15 minutes for the changes to be registered into the system. 
 
+## Step 2: Installing Visual Studio Code
 Once the changes were made, I opened up a new window and terminal in Visual Studio Code. I had the application already downloaded, and thus did not need to take further measures to acquire the application. However, if you do not have it downloaded, go to [Visual Studio Code](https://code.visualstudio.com/) and install it onto your computer. 
 
 <img width="1018" alt="Pasted Graphic 3" src="https://user-images.githubusercontent.com/114371214/212163968-898a37b8-bd34-47c8-abc2-76291928e1da.png">
 
+## Step 3: Connecting to Terminal using SSH 
 The account lookup allowed me to find out my username so I then wrote this line of code into the terminal: **$ ssh cs15lwi23aqo@ieng6.ucsd.edu** and put in my password. You would simply need to change the username to your own account name and then keep the address as **@ieng6.ucsd.edu**. For reference: *ACCOUNTNAME*@ieng6.ucsd.edu.
 
 <img width="694" alt="TERMINAL" src="https://user-images.githubusercontent.com/114371214/212164484-25f38ac6-dcb8-4fb4-bed3-09b05fbf56c8.png">
 
-When successfully logged in, I was prompted with text indicating that the terminal is now connected with a computer in the CSE Basement. 
+When successfully logged in, I was prompted with a message indicating that the terminal is now connected with a computer in the CSE Basement. 
 
 ![UcDfuBRzXNTMLtu9tWVXKuvF43SYq7yrkCCVU8u9g7WE2gcH4CyEN3VUpuD9EOaLMB9SsmvWw6Fz7lQ-1AAOf6Eb1fHyL9Bdxg8QQURajsjrjwmAt26yYOPo-xhn](https://user-images.githubusercontent.com/114371214/212164530-4d196a4d-f333-4759-991a-d3503e944671.png)
 
-I then proceeded to list out some commands into the terminal to examine different error messages, and what information is being outputted. You can try different linux commands such as these:
+## Step 4: Running Commands into the Terminal
+I proceeded to list out some commands into the terminal to examine different error messages, and what information is being outputted. You can try different linux commands such as these:
 
 <img width="648" alt="group members' username" src="https://user-images.githubusercontent.com/114371214/212164654-2480596b-6178-48c8-8257-2553feeea71d.png">
 
