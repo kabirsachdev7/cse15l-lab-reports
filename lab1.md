@@ -31,7 +31,7 @@ I proceeded to list out some commands into the terminal to examine different err
 Lastly, I proceeded to [Github](github.com), and since I had an account already registered I did not need to make another one. However, if you do not have an account, simply register on their website. 
 
 ## Step 5: Creating a repository on Github 
-On the Github site, I created a new Repository titled *cse15l-lab-reports* and left the settings on the repository as default. With my new repository, I created a new file called **index.md** which is a markdown file and then committed it into the repository. I also modified the *Pages* settings to make the branch source as **main**.
+On the Github site, I created a new Repository titled *cse15l-lab-reports* and left the settings on the repository to the default settings already in place. To create a new repository, simply click on the **+** beside your profile picture on the top write and there will be a dropdown that provides you with the option to create a *new repository*. With my new repository, I created a new file called **index.md** which is a markdown file and then committed it into the repository. I also modified the *Pages* settings to make the branch source as **main**.
 
 <img width="1176" alt="Pasted Graphic 8" src="https://user-images.githubusercontent.com/114371214/212164841-6ce1044a-4069-4f67-9d0a-61d15a99b96a.png">
 
