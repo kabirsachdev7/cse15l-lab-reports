@@ -25,15 +25,15 @@ I proceeded to list out some commands into the terminal to examine different err
 
 <img width="648" alt="group members' username" src="https://user-images.githubusercontent.com/114371214/212164654-2480596b-6178-48c8-8257-2553feeea71d.png">
 
-cd ~ - --> changes the current directory to the home directory of the current user. ~ is a shorthand for the home directory.
+**cd ~**  --> changes the current directory to the home directory of the current user. ~ is a shorthand for the home directory.
 
-cd --> changes the current directory to the home directory of the current user without arguments.
+**cd** --> changes the current directory to the home directory of the current user without arguments.
 
-ls -lat --> lists the contents of the current directory in long format (-l), showing details such as permissions, owner, size, and modification time. The contents are sorted by modification time, with the newest items first (-t).
+**ls -lat** --> lists the contents of the current directory in long format (-l), showing details such as permissions, owner, size, and modification time. The contents are sorted by modification time, with the newest items first (-t).
 
-ls -a --> lists the contents of the current directory, including hidden files and directories (-a).
+**ls -a** --> lists the contents of the current directory, including hidden files and directories (-a).
 
-ls <directory> --> lists the contents of the specified directory. In the example ls /home/linux/ieng6/cs15lwi23/cs15lwi23abc, the <directory> argument is /home/linux/ieng6/cs15lwi23/cs15lwi23abc.
+**ls <directory>** --> lists the contents of the specified directory. In the example ls /home/linux/ieng6/cs15lwi23/cs15lwi23abc, the <directory> argument is /home/linux/ieng6/cs15lwi23/cs15lwi23abc.
 
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ --> copies the file /home/linux/ieng6/cs15lwi23/public/hello.txt to the home directory of the current user.
 
