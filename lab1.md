@@ -25,7 +25,7 @@ I proceeded to list out some commands into the terminal to examine different err
 
 <img width="648" alt="group members' username" src="https://user-images.githubusercontent.com/114371214/212164654-2480596b-6178-48c8-8257-2553feeea71d.png">
 
-**cd ~**  --> changes the current directory to the home directory of the current user. ~ is a shorthand for the home directory.
+** cd ~ **  --> changes the current directory to the home directory of the current user. ~ is a shorthand for the home directory.
 
 **cd** --> changes the current directory to the home directory of the current user without arguments.
 
@@ -35,9 +35,9 @@ I proceeded to list out some commands into the terminal to examine different err
 
 **ls <directory>** --> lists the contents of the specified directory. In the example ls /home/linux/ieng6/cs15lwi23/cs15lwi23abc, the <directory> argument is /home/linux/ieng6/cs15lwi23/cs15lwi23abc.
 
-cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/ --> copies the file /home/linux/ieng6/cs15lwi23/public/hello.txt to the home directory of the current user.
+**cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/** --> copies the file /home/linux/ieng6/cs15lwi23/public/hello.txt to the home directory of the current user.
 
-cat /home/linux/ieng6/cs15lwi23/public/hello.txt --> displays the contents of the file /home/linux/ieng6/cs15lwi23/public/hello.txt to the terminal. cat is short for "concatenate" and is often used to display the contents of text files.
+**cat /home/linux/ieng6/cs15lwi23/public/hello.txt** --> displays the contents of the file /home/linux/ieng6/cs15lwi23/public/hello.txt to the terminal. cat is short for "concatenate" and is often used to display the contents of text files.
 
 ## Step 5: Constructing a Github Page
 <img width="1356" alt="Pasted Graphic 7" src="https://user-images.githubusercontent.com/114371214/212164705-ce611bee-f8fb-4d24-aedc-6dcbb604b93e.png">
