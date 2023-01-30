@@ -7,7 +7,7 @@
 ### Code for StringServer
 ![image](https://user-images.githubusercontent.com/114371214/215438771-640d4327-46b2-4f61-a696-c29ed39c8fe8.png)
 
-The code above shows the implementation of a a web server called "StringServer." The state of the server is a string that gets concatenated to by incoming requests. The StringHandler class implements the URLHandler interface, and provides the logic for handling HTTP requests. It has a single instance variable loadingString which is initially an empty string. Requests are recieved through `handleRequest` which checks if the request path is `/add-message`. If it is, then it splits the query of the request into a String array and checks if the initial element is "s." If it is, then it proceeds to concatenate "\n" and the value of the second element of `paramenters` array to `loadingString`. Finally, the method returns the `loadingString` as the output of the method. 
+The code above shows the implementation of a web server called "StringServer." The state of the server is a string that gets concatenated to by incoming requests. The StringHandler class implements the URLHandler interface, and provides the logic for handling HTTP requests. It has a single instance variable loadingString which is initially an empty string. Requests are recieved through `handleRequest` which checks if the request path is `/add-message`. If it is, then it splits the query of the request into a String array and checks if the initial element is "s." If it is "s, it proceeds to concatenate "\n" and the value of the second element of `paramenters` array to `loadingString`. Finally, the method returns the `loadingString` as the output of the method. 
 
 
 ---
@@ -21,7 +21,7 @@ To note, the example above shows the page being loaded an additional 3 times, pr
 ### Example 2: /add-message?s=How are you__
 ![image](https://user-images.githubusercontent.com/114371214/215438110-808e5e87-0878-4079-8c26-0b35a50660df.png)
 
-Similarly, example 2 calls the `handleRequest` method using the argument `/add-message?s=How are you`. The method is called with the argument of the `url`, with it being `/add-message?s=How are you,` which is further split on `=` where the second element of the array is concatenated to `loadingString`. `loadingString` is returned producing the output of `\nHow are you`, as shown on the fifth line of the example
+Similarly, example 2 calls the `handleRequest` method using the argument `/add-message?s=How are you`. The method is called with the argument of the `url`, with the argument being `/add-message?s=How are you,` which is further split on `=` where the second element of the array is concatenated to `loadingString`. `loadingString` is returned producing the output of `\nHow are you`, as shown on the fifth line of the example
 
 
 ---
@@ -89,6 +89,7 @@ These specific inputs happen to not induce a failure in the faulty code, but the
 
 ### The symptom, as the output of running the tests
 #### JUnit Example: Running a failure-inducing input
+![image](https://user-images.githubusercontent.com/114371214/215448366-99a69c04-cd90-4a1d-90ce-6ad43fbbe37e.png)
 
 #### JUnit Example: Running input that doesn't induce a failure
 ![image](https://user-images.githubusercontent.com/114371214/215444678-cad667c5-9b57-4797-bb03-ee78784fc9f9.png)
