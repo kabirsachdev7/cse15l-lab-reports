@@ -1,4 +1,5 @@
 ### 1. Setup: Delete any existing forks of the repository you have on your account
+<img width="829" alt="image" src="https://user-images.githubusercontent.com/114371214/221013125-2807eb99-8b6c-466f-89f9-23959c784510.png">
 
 
 ---
