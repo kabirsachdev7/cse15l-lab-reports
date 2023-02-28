@@ -30,6 +30,8 @@ Keys Pressed: `<CTRL + R>, <ENTER>`
 
 
 Keys pressed: `<Up>, <Up>, <Up>, <Up>, <Up>, <Enter>, <Up>, <Enter>`
+![image](https://user-images.githubusercontent.com/114371214/221757987-fc55bb0a-0eec-4cc3-a17d-cce04c58f547.png)
+
 
 I used the up arrow keys 5 times and then pressed enter to get the ` javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to run the test, as it was previously in my Bash history. I also used the arrow key Up one more time to get `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` and then clicked `<Enter>` to run the Junit Tests. 
 
@@ -60,6 +62,8 @@ Keys Pressed:
   
 
 ### 5. Run the tests, demonstrating that they now succeed
+![image](https://user-images.githubusercontent.com/114371214/221757811-93a6a649-57e2-40a1-8ec1-332360133631.png)
+
 
 Keys pressed: `<Up>, <Enter>, <Up>, <Enter>`
 
@@ -71,7 +75,8 @@ I pushed the up arrow to access the previous `javac` command from the history an
   
 ### 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/114371214/221755810-a796e843-4352-4e0d-a3f0-1ec51d65b184.png)
+
 
 Typed `git add` and then used `<CTRL + R>` to search for ListExamples.java and then pressed `<Enter>`
  
@@ -79,5 +84,5 @@ I also typed `git status` to monitor all the changes being made to the file and 
 
 Typed `git commit -m "Fix failing test"` and then pressed `<Enter>`to commit it into the repository
 
-Typed git push origin <main> and pressed `<Enter>` to push and save the changes into the repository
+Typed `git push origin <main>` and pressed `<Enter>` to push and save the changes into the repository
 
