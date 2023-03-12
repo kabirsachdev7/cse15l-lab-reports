@@ -6,7 +6,7 @@ When reflecting back on the quarter, one of the assignments I really enjoyed was
 ---
 
 ## Researching Commands: Touch
-The touch command is a simple and versatile command-line utility that is used to create or update the timestamps (access time and modification time) of files and directories. The touch command can be used to create new files or directories, update the timestamps of existing files or directories, or set the timestamps of files or directories to match those of a reference file. It also has several options that allow you to control the behavior of the command, such as specifying a specific timestamp to set, updating only the access or modification time, or updating the timestamps of all files in a directory.
+The touch command can be used to create new files or directories, update the timestamps of existing files or directories, or set the timestamps of files or directories to match those of a reference file. It also has several options that allow you to control the behavior of the command, such as specifying a specific timestamp to set, updating only the access or modification time, or updating the timestamps of all files in a directory.
 
 Learning more about the touch command and its various options can be beneficial for me as I hope to work in software development, or data management where uderstanding how to manipulate file timestamps can help me organize and manage files more effectively, troubleshoot problems, and automate tasks. 
 
