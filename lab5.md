@@ -11,17 +11,19 @@ When reflecting back on the quarter, one of the assignments I really enjoyed was
 
 ### 1. Creating multiple files with a prefix
 
-**Example 1.1: Using a for loop**
+**Example 1: Using a for loop**
 
 Sometimes we might want to create multiple files with a similar name and add a prefix to all of them. The touch command can be used in combination with the echo command and the redirect operator `>` to create multiple files with a prefix. For example, to create three files with a prefix "file_" and the suffix ".txt", I can use the following command:
 `for i in {1..3}; do touch file_"$i".txt; done`
 
-**Example 1.2: Using brace expansion:**
+**Example 2: Using brace expansion:**
 
 Another way to create multiple files with a prefix is to use brace expansion. For example, to create three files with the prefix "javaserver" and the suffix ".txt", I can use the following command:
 `touch javaserver{1..3}.java`
 
 This will create three files named "javaserver1.java", "javaserver2.java", and "javaserver3.java".
+
+Source: https://www.hostinger.com/tutorials/linux-touch-command-with-useful-examples/
 
 ---
 
@@ -68,7 +70,7 @@ $ touch -t 199708070230 written_2/
 Output: No output, but the access time of "dir" has been set to August 7, 1997 at 2:30 AM.
 
 
-Source: [https://man7.org/linux/man-pages/man1/grep.1.html](https://linux.die.net/man/1/touch)
+Source: https://shapeshed.com/unix-touch/
 
 ---
 
@@ -116,3 +118,6 @@ touch -c ./written_2/*
 ```
 
 In this example, we use the -c option with the touch command and a wildcard `*` to update the access and modification times of all existing files in the `./written_2/` directory. If a file exists, its timestamps will be updated to the current time; if a file does not exist, nothing happens and the command moves on to the next file. Since files exist, this is a useful way to update the timestamps of all files in a directory without creating new files if they do not already exist.
+
+Source: https://www.tecmint.com/8-pratical-examples-of-linux-touch-command/
+
