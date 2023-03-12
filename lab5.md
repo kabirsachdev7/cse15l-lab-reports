@@ -87,7 +87,7 @@ $ touch -r /written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt /written_2/tra
 In this example, we use the touch command with the -r option to set the modification and access times of a file named `eijing-History.txt`in the `/written_2/travel_guides/berlitz2/`subdirectory to be the same as those of a reference file named `ermuda-WhatToDo.txt`in the same directory. In this case, we specify the path of the reference file as `written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt` and we specify the target file `Beijing-History.txt ` in the same directory as the last argument.
  
 
-Example 2: Set the modification and access times of all files in written_2 to be the same as those of a reference file named "ref.txt".
+**Example 2: Set the modification and access times of all files in written_2 to be the same as those of a reference file named "ref.txt".**
 ```
 $ touch -r written_2/travel_guides/berlitz2/Bermuda-History.txt written_2/*
 ```
@@ -97,3 +97,22 @@ In this example, we use the touch command with the -r option to set the modifica
 By setting the timestamps of all files in the directory to be the same as the reference file, we can ensure that all the files have consistent timestamps, which can be useful for organizing and managing files.
 
 Source: https://www.tecmint.com/18-important-examples-of-grep-command-in-linux/
+
+---
+
+### 5. -c (or --create): if the file does not exist, do not create it ###
+
+This command is used to update the timestamps of a file only if it already exists. If the file does not exist, nothing happens and the command returns to the command prompt without any output.
+
+**Example 1: Update the timestamps of a file only if it already exists.**
+```
+touch -c ./written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+```
+In this example, we use the -c option with the touch command to update the access and modification times of a file called `Canada-WhereToGo.txt` in the `./written_2/travel_guides/berlitz2/` directory. If the file exists, the timestamps will be updated to the current time; if the file does not exist, nothing happens and the command returns to the command prompt without any output.
+
+**Example 2: Use the -c option with a wildcard to update the timestamps of all existing files in a directory.**
+```
+touch -c ./written_2/*
+```
+
+In this example, we use the -c option with the touch command and a wildcard `*` to update the access and modification times of all existing files in the `./written_2/` directory. If a file exists, its timestamps will be updated to the current time; if a file does not exist, nothing happens and the command moves on to the next file. Since files exist, this is a useful way to update the timestamps of all files in a directory without creating new files if they do not already exist.
