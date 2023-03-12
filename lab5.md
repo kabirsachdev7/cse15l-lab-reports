@@ -20,12 +20,19 @@ Learning more about the touch command and its various options can be beneficial 
 Sometimes we might want to create multiple files with a similar name and add a prefix to all of them. The touch command can be used in combination with the echo command and the redirect operator `>` to create multiple files with a prefix. For example, to create three files with a prefix "file_" and the suffix ".txt", I can use the following command:
 `for i in {1..3}; do touch file_"$i".txt; done`
 
+In this command, we're using a for loop to iterate through the values 1 to 3, and for each value, we're using the touch command to create a file with the name "file_" followed by the value of i and the suffix ".txt". The dollar sign ($) is used to access the value of the i variable.
+
+
+
 **Example 2: Using brace expansion:**
 
 Another way to create multiple files with a prefix is to use brace expansion. For example, to create three files with the prefix "javaserver" and the suffix ".txt", I can use the following command:
 `touch javaserver{1..3}.java`
 
 This will create three files named `javaserver1.java`, `javaserver2.java`, and `javaserver3.java`.
+
+In this command, we're using brace expansion to generate a series of strings with the pattern "javaserver" followed by a number from 1 to 3, and the suffix ".java". The touch command is then used to create files with these names.
+
 
 Source: https://www.hostinger.com/tutorials/linux-touch-command-with-useful-examples/
 
