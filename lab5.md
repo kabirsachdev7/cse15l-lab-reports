@@ -46,14 +46,17 @@ This option changes the access time of the file(s) to the current time, without 
 ```
 touch -a written_2/travel_guides/berlitz1/HandRHawaii.txt 
 ```
-Output: No output, but this will update the access time of the HandRHawaii.txt to the current time without changing the modification time.
+
+This command will update the access time of "HandRHawaii.txt" to the current time without changing its modification time.
+
 
 
 **Example 2: Change the access time of all files in a directory named "written_2" to the current time."**
 ```
 touch -a written_2/*
 ```
-Output: No output, but the example above will update the access time of all files within the written_2 folder to the current time.
+This command will update the access time of all files within the "written_2" directory to the current time.
+
 
 Source: https://linuxize.com/post/how-to-use-linux-touch-command/
 
@@ -70,7 +73,8 @@ $ touch -t 202301011230 written_2/travel_guides/berlitz1/century.txt
 
 ```
 
- No output, but the modification time of "filecentury.txt" has been set to January 1, 2023 at 12:30 PM
+This command will set the modification time of "century.txt" to January 1, 2023, at 12:30 PM.
+
 
 
 **Example 2: Set the access time of a directory named "written_2" to August 7, 1997 at 2:30 AM**
@@ -78,11 +82,9 @@ $ touch -t 202301011230 written_2/travel_guides/berlitz1/century.txt
 $ touch -t 199708070230 written_2/
 
 ```
-Output: No output, but the access time of "dir" has been set to August 7, 1997 at 2:30 AM.
-
+This command will set the access time of "written_2" to August 7, 1997, at 2:30 AM.
 
 Source: https://shapeshed.com/unix-touch/
-
 ---
 
 
