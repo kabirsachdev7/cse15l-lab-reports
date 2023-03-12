@@ -25,7 +25,7 @@ Sometimes we might want to create multiple files with a similar name and add a p
 Another way to create multiple files with a prefix is to use brace expansion. For example, to create three files with the prefix "javaserver" and the suffix ".txt", I can use the following command:
 `touch javaserver{1..3}.java`
 
-This will create three files named "javaserver1.java", "javaserver2.java", and "javaserver3.java".
+This will create three files named `javaserver1.java`, `javaserver2.java`, and `javaserver3.java`.
 
 Source: https://www.hostinger.com/tutorials/linux-touch-command-with-useful-examples/
 
