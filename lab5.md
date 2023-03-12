@@ -73,7 +73,7 @@ $ touch -t 202301011230 written_2/travel_guides/berlitz1/century.txt
 
 ```
 
-This command will set the modification time of "century.txt" to January 1, 2023, at 12:30 PM.
+This command uses the "-t" option to set a custom timestamp for the file "century.txt". The timestamp specified is "202301011230", which represents January 1, 2023, at 12:30 PM. The path to the file is "written_2/travel_guides/berlitz1/century.txt" and after running this command, the modification time of "century.txt" will be set to the specified timestamp.
 
 
 
@@ -82,7 +82,8 @@ This command will set the modification time of "century.txt" to January 1, 2023,
 $ touch -t 199708070230 written_2/
 
 ```
-This command will set the access time of "written_2" to August 7, 1997, at 2:30 AM.
+This command also uses the "-t" option to set a custom timestamp, this time for the directory "written_2". The timestamp specified is "199708070230", which represents August 7, 1997, at 2:30 AM. Since this command only specifies a directory and not a specific file, the access time for the directory will be updated, but not the modification time. After running this command, the access time of "written_2" will be set to the specified timestamp.
+
 
 Source: https://shapeshed.com/unix-touch/
 ---
@@ -99,7 +100,7 @@ This can be useful when you want to synchronize the times of two files or reset 
 ```
 $ touch -r /written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt /written_2/travel_guides/berlitz2/Beijing-History.txt
 ```
-In this example, we use the touch command with the -r option to set the modification and access times of a file named `eijing-History.txt`in the `/written_2/travel_guides/berlitz2/`subdirectory to be the same as those of a reference file named `ermuda-WhatToDo.txt`in the same directory. In this case, we specify the path of the reference file as `written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt` and we specify the target file `Beijing-History.txt ` in the same directory as the last argument.
+In this example, we use the touch command with the -r option to set the modification and access times of a file named `Beijing-History.txt`in the `/written_2/travel_guides/berlitz2/`subdirectory to be the same as those of a reference file named `Bermuda-WhatToDo.txt`in the same directory. In this case, we specify the path of the reference file as `written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt` and we specify the target file `Beijing-History.txt ` in the same directory as the last argument.
  
 
 **Example 2: Set the modification and access times of all files in berlitz2 to be the same as those of a reference file named "Bermuda-History.txt".**
