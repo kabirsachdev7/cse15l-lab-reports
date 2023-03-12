@@ -55,7 +55,7 @@ The timestamp should be in the format "[[CC]YY]MMDDhhmm[.ss]" where each bracket
 **Example 1: Set the modification time of a file named "century.txt" to January 1, 2023 at 12:30 PM**
 
 ```
-$ touch -t 202301011230 century.txt
+$ touch -t 202301011230 written_2/travel_guides/berlitz1/century.txt
 
 ```
 
