@@ -98,7 +98,7 @@ In this example, we use the touch command with the -r option to set the modifica
 
 By setting the timestamps of all files in the directory to be the same as the reference file, we can ensure that all the files have consistent timestamps, which can be useful for organizing and managing files.
 
-Source: https://www.tecmint.com/18-important-examples-of-grep-command-in-linux/
+Source: https://www.tecmint.com/8-pratical-examples-of-linux-touch-command/
 
 ---
 
