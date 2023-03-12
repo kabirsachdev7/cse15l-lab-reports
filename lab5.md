@@ -51,11 +51,11 @@ This command will update the access time of "HandRHawaii.txt" to the current tim
 
 
 
-**Example 2: Change the access time of all files in a directory named "written_2" to the current time."**
+**Example 2: Change the access time of all files in a subdirectory named "berlitz2" to the current time."**
 ```
 touch -a written_2/*
 ```
-This command will update the access time of all files within the "written_2" directory to the current time.
+This command will update the access time of all files within the "written_2/travel_guides/berlitz2/" subdirectory to the current time.
 
 
 Source: https://linuxize.com/post/how-to-use-linux-touch-command/
